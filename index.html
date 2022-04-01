@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Uhuy!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="container">
+            <h2>Calculator Uhuy!</h2>
+            <div class="layar">
+                <p id="hasil">0</p>
+            </div>
+            <div class="baris-satu">
+                <button id="r1-1" onclick="forclear()">C</button>
+                <button id="r1-2" onclick="fordisplay('**')">^2</button>
+                <button id="r1-3" onclick="persen()">%</button>
+                <button id="r1-4" onclick="fordisplay('/')">/</button>
+            </div>
+            <div class="baris-dua">
+                <button id="r2-1" onclick="fordisplay('7')">7</button>
+                <button id="r2-2" onclick="fordisplay('8')">8</button>
+                <button id="r2-3" onclick="fordisplay('9')">9</button>
+                <button id="r2-4" onclick="fordisplay('*')">×</button>
+            </div>
+            <div class="baris-tiga">
+                <button id="r3-1" onclick="fordisplay('4')">4</button>
+                <button id="r3-2" onclick="fordisplay('5')">5</button>
+                <button id="r3-3" onclick="fordisplay('6')">6</button>
+                <button id="r3-4" onclick="fordisplay('-')">-</button>
+            </div>
+            <div class="baris-empat">
+                <button id="r4-1" onclick="fordisplay('1')">1</button>
+                <button id="r4-2" onclick="fordisplay('2')">2</button>
+                <button id="r4-3" onclick="fordisplay('3')">3</button>
+                <button id="r4-4" onclick="fordisplay('+')">+</button>
+            </div>
+            <div class="baris-lima">
+                <button id="r5-1" onclick="fordisplay('0')">0</button>
+                <button id="r5-3" onclick="fordisplay('.')">.</button>
+                <button id="r5-4" onclick="samadengan()">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
